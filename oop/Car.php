@@ -4,6 +4,7 @@ class Car{
 
     public function getName()
     {
+
     return $this->name;
     }
 
@@ -11,6 +12,6 @@ class Car{
 
     echo $yangi->getName();
 }
-
+//salom 
 
 ?>
