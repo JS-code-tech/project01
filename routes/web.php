@@ -16,6 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/o2', function () {
-    return "HI";
+// Route::get('/o2', function () {
+//     return 
+
+// });
+
+
+Route::get('/oop', function () {
+   include '../oop';
+    
 });
